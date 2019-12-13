@@ -1,0 +1,95 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-12 15:45:53
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-12 18:54:50
+*/
+#topBox{
+	height: 15px;
+	line-height: 15px;
+	background-color: #ccc;
+margin:0 auto;}
+#topBox>img{height: 10px;
+	margin-top: 2px;
+width: 10px;
+float: right;}
+#topBox>div{
+	float: right;
+height: 15px;width: 600px;
+position: relative;
+margin-right: 200px;
+overflow: hidden;
+}
+#tipsC{
+height: 15px;line-height: 15px;
+width: 300px;
+position: absolute;
+right: -200px;
+color: red;
+font-size: 0.7em;
+}
+*{padding:0;
+margin:0;}
+ul,li{list-style: none;}
+li{display: inline-block;
+  margin-left: 30px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: grey;
+  cursor:pointer;
+ }
+.box{
+	width: 1200px;
+	height: 397px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	overflow: hidden;
+	width: 1200px;
+	float: left;
+}
+span{
+	display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 30px;
+    text-align: center;
+    opacity: 0;
+    cursor:pointer;
+    background-color: red;
+}
+#left{
+	position: absolute;
+	left: 30px;
+	top: 150px;
+}
+#right{
+	position: absolute;
+	right: 30px;
+	top: 150px;
+}
+img{width: 1200px;
+height: 397px;
+}
+.nav{
+	display: block;
+	height: 30px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+   top: 367px;
+}
+.active{
+	background-color: red;
+}
